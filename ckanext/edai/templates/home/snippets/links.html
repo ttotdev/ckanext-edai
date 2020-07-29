@@ -1,0 +1,23 @@
+{% set stats = h.get_site_statistics() %}
+
+
+  <div class="inner">
+<p>The title of this site is: {{ g.site_title }}.</p>
+      <tab style="padding: 15px">
+        <tr>
+           <td >   
+              <a href="{{ h.url_for(controller='package', action='search') }}">
+                <img alt="Datasets" src="/images/link_image_datasets_v2.jpg" width=300" height="250">
+              </a>
+            </td>
+            <td>
+              <a href="{{ h.url_for(controller='organization', action='index') }}">
+                <img alt="Feature 360" src="/images/link_image_feature_360_v2.jpg" width=300" height="250">
+              </a>
+            </td>
+        </tr>
+      </tab>
+
+</div>
+
+
