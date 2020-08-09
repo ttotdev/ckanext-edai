@@ -42,13 +42,13 @@
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
 .masthead .navigation .nav-pills li a:hover {
-  background-color: rgb(255, 48, 48);
+  background-color: rgb(187, 175, 175);
   color: white;
 }
 /* The "active" navigation pill (for example, when you're on the /dataset page
    the "Datasets" link is active). */
 .masthead .navigation .nav-pills li.active a {
-  background-color: rgb(74, 74, 74);
+  background-color: rgb(187, 175, 175);
 }
 /* The "box shadow" effect that appears around the search box when it
    has the keyboard cursor's focus. */
@@ -68,7 +68,7 @@
   /* background-color: var(--main-background-color); */
   background-image: url("./images/background/Picture1.JPG");
   color: white;  
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 20px; 
 }
 
@@ -77,7 +77,7 @@
   box-shadow: none;
   /* background-color: var(--main-background-color); */
   background-image: url("./images/background/Picture1.JPG");
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 20px; 
 }
 
@@ -86,6 +86,7 @@
 .hero .box {
   border: none;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: white
 }
 
@@ -96,12 +97,20 @@
   margin-bottom: 20px;
 }
 
+/* Remove the borders around the "Welcome to CKAN" and "Search Your Data"
+   boxes. */
+   .hero_test {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white
+  }
+
 /* Change the colors of the "Search Your Data" box. */
 .homepage .module-search .module-content {
   color: white;
     /* background-color: var(--main-background-color); */
   background-image: url("./images/background/Picture1.JPG");
-  margin-bottom: 20px;
 }
 /* Change the background color of the "Popular Tags" box. */
 .homepage .module-search .tags {
@@ -140,3 +149,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.display-flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px; 
+  margin-bottom: 30px;
+}
