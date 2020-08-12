@@ -1,12 +1,180 @@
-<div class="display-flex">
+    <div class=“container”>
+      <div class=row-display-flex>
 
-  <a href="{{ h.url_for(controller='package', action='search') }}">
-    <img alt="" src="/images/link_image_datasets_v2.jpg" width=330" height="275" style="display: block; margin-left: auto; margin-right: auto;"">
-  </a>
 
-  <a href="{{ h.url_for(controller='organization', action='index') }}">
-    <img alt="" src="/images/link_image_feature_360_v2.jpg" width=330" height="275" style="display: block; margin-left: auto; margin-right: auto;">
-  </a>
-</div>
+        <div class=col-md-6>
+          <div class=row-display-flex>ENTERPRISE CURATED DATASET INVENTORY
+          </div>
+
+
+          <div class=row-display-flex>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for('organization_read', id='personal-business-banking') }}">
+                  <img alt="" src="/images/noun_Banking app_1456772.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>Personal</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for('organization_read', id='commercial-banking') }}">
+                  <img alt="" src="/images/noun_building_195651.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>Commercial</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for('organization_read', id='capital-markets') }}">
+                  <img alt="" src="/images/noun_capital market_3346078.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>Capital Markets</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/plus_sign_more.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>More</figcaption>
+                </a>
+              </figure>
+            </div>
+          </div>
+
+          <div class=row-display-flex>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for('organization_read', id='marketing') }}">
+                  <img alt="" src="/images/noun_marketing_3154527.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>Marketing</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for('organization_read', id='human-resources') }}">
+                  <img alt="" src="/images/noun_human resources_579198.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>HR</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for('organization_read', id='technology-operations') }}">
+                  <img alt="" src="/images/noun_Technology_1217581.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>T & O</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/plus_sign_more.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>More</figcaption>
+                </a>
+              </figure>
+            </div>
+          </div>
+
+          <div class=row-display-flex>
+            Explore data across the Enterprise to understand what data we have, where it is, and how to access it to help support your analytics
+          </div>
+
+        </div>
+
+
+
+        <div class=col-md-6>
+
+
+          <div class=row-display-flex>DATA SCIENCE FEATURE 360
+          </div>
+
+
+          <div class=row-display-flex>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/noun_Banking app_1456772.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>Personal</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/noun_building_195651.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>Commercial</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/noun_capital market_3346078.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>Capital Markets</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/plus_sign_more.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>More</figcaption>
+                </a>
+              </figure>
+            </div>
+          </div>
+
+          <div class=row-display-flex>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/noun_marketing_3154527.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>Marketing</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/noun_human resources_579198.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>HR</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/noun_Technology_1217581.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>T & O</figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class=“col-md-3”>
+              <figure>
+                <a href="{{ h.url_for(controller='package', action='search') }}">
+                  <img alt="" src="/images/plus_sign_more.png" width=110" height="80" style="display: block; margin-left: auto; margin-right: auto;"">
+                  <figcaption>More</figcaption>
+                </a>
+              </figure>
+            </div>
+          </div>yy
+
+
+          <div class=row-display-flex>
+            Discover ready-made data features, e.g. model output, derivation logic and code, to enable you to master the use of our data for Analytics & AI
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
 
 
