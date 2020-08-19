@@ -3,10 +3,7 @@
 	--main-background-color_1: rgb(0, 117, 190);
 	--main-background-color_2: rgb(255, 255, 255);
   --links-background-color: rgb(204, 228, 243);
-}
-
-.edai_padding_bottom {
-  padding-bottom: 10px;
+	--main-background-definition: rgb(0, 85, 135,1);
 }
 
 /* =====================================================
@@ -184,7 +181,7 @@ body {
   padding-left: 250px;
   padding-right: 250px;
   margin-bottom: 0px;
-  background-color: rgb(0, 117, 190);
+  background-color: : var(--main-background-definition);
 }
 
 .red_line {
@@ -338,4 +335,18 @@ div.links_title {
   top: 50%;
   left: 25%;
   /* bring your own prefixes */
+}
+
+
+
+.col-sm-4 {
+  background: #999;
+}
+
+.other {
+  background: #88B040;
+}
+
+.other2 {
+  background: #777;
 }
