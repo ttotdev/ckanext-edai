@@ -1,16 +1,16 @@
 {% set tags = h.get_facet_items_dict('tags', limit=3) %}
-{% set placeholder = _('Search by data or use case name ...') %}
+{% set placeholder = _('search by data or use case name ...') %}
 
 
 <div class="module module-search module-narrow module-shallow box">
   <form class="module-content search-form" method="get" action="{% url_for controller='package', action='search' %}">
     <h3 class="heading beta" style="text-align: center;">{{ _("What are you looking for today?") }}</h3>
     <div class="search-input form-group search-giant centered_search_box"  style="width: 50%;">
-      <input aria-label="{% block header_site_search_label %}{{ _('Search datasets') }}{% endblock %}" id="field-main-search" type="text" class="form-control" name="q" value="" autocomplete="off" placeholder="{% block search_placeholder %}{{ placeholder }}{% endblock %}"/>
       <button type="submit">
         <i class="fa fa-search"></i>
         <span class="sr-only">{{ _('Search') }}</span>
       </button>
+      <input aria-label="{% block header_site_search_label %}{{ _('Search datasets') }}{% endblock %}" id="field-main-search" type="text" class="form-control" name="q" value="" autocomplete="off" placeholder="{% block search_placeholder %}{{ placeholder }}{% endblock %}"/>
     </div>
   </form>
   <div class="tags centered_tags">

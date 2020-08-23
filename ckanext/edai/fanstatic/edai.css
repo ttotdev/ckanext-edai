@@ -362,3 +362,9 @@ div.links_title {
   padding: 15px;
   border-radius: 25px;
 }
+
+.search-form .search-input.search-giant button i {
+  font-size: 28px;
+  width: 28px;
+  color: var(--main-background-color_1);
+}
