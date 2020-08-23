@@ -1,9 +1,6 @@
 :root {
 	--main-background-color: rgb(0, 74, 124);
 	--main-background-color_1: rgb(0, 117, 190);
-	--main-background-color_2: rgb(255, 255, 255);
-  --links-background-color: rgb(204, 228, 243);
-	--main-background-definition: rgb(0, 85, 135,1);
 }
 
 /* =====================================================
@@ -83,7 +80,7 @@ beta {
 }
 
 .hero{
-  background: var(--main-background-color_2);
+  background: rgb(255, 255, 255);
 }
 
 
@@ -118,11 +115,14 @@ beta {
   color: rgb(0, 0, 0);
     /* background-color: var(--main-background-color); */
     background-color: white;
+    padding: 0px;
 }
 /* Change the background color of the "Popular Tags" box. */
 .homepage .module-search .tags {
     color: rgb(0, 0, 0);
     background-color: white;
+    padding-top: 0px;
+    padding-bottom: 25px;    
 }
 /* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
    and "Search Your Data" boxes line up. */
@@ -181,15 +181,20 @@ body {
   padding-left: 250px;
   padding-right: 250px;
   margin-bottom: 0px;
-  background-color: : var(--main-background-definition);
+  font-size: 30px;
+  font-weight: bold ;
+  background-color: #005587;
+  padding-top: 15px;
+  padding-bottom: 16px;
 }
 
 .red_line {
   border: 0;
-  background-color: red;
+  background-color: #ed1c24;
   height: 5px;
   margin-bottom: 0px;
   margin-top: 0px;
+  width: auto;
 }
 
 .dropdown {
@@ -285,8 +290,9 @@ body {
 
 div.links_title {
   text-align: center;
-  background-color: white;
+  background-color: #efeeee;
   font-size: 30px;
+  font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -349,4 +355,10 @@ div.links_title {
 
 .other2 {
   background: #777;
+}
+
+.search-form .search-input.search-giant input {
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 25px;
 }
