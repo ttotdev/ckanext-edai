@@ -1,6 +1,5 @@
 :root {
 	--main-background-color: rgb(0, 74, 124);
-	--main-background-color_1: rgb(0, 117, 190);
 }
 
 /* =====================================================
@@ -8,7 +7,7 @@
    ===================================================== */
 
 .account-masthead {
-    background-color: var(--main-background-color_1);
+    background-color: rgb(0, 117, 190);
     
 }
 /* The "bubble" containing the number of new notifications. */
@@ -35,7 +34,7 @@ beta {
    ======================================================================== */
 
 .masthead {
-  background-color: var(--main-background-color_1);
+  background-color: rgb(0, 117, 190);
 }
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
@@ -142,7 +141,7 @@ beta {
 
 .site-footer,
 body {
-    background-color: var(--main-background-color_1);
+    background-color: rgb(0, 117, 190);
 }
 /* The text in the footer. */
 .site-footer,
@@ -366,5 +365,9 @@ div.links_title {
 .search-form .search-input.search-giant button i {
   font-size: 28px;
   width: 28px;
-  color: var(--main-background-color_1);
+  color: rgb(0, 117, 190);
+}
+
+.my-background {
+  background-color: #efeeee;
 }

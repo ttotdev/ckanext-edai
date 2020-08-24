@@ -1,9 +1,9 @@
-<div class="container">
-  <div class="row-display-flex " style="text-align: center; background-color:white;">
-    <span class="border ">
+<div class="container my-background">
+  <div class="my-background text row-display-flex " style="text-align: center;">
+    <span class="border" style="background-color: white; border-radius: 30px;">
     <div class="col">
       <h2>Enterprise Curated Dataset Inventory</h2>
-      <div class=row-display-flex>
+      <div class="row-display-flex">
         <div class=“col pull-left”>
           <figure>
             <a href="{{ h.url_for('organization_read', id='personal-business-banking') }}">
@@ -15,7 +15,7 @@
         <div class=“col”>
           <figure>
             <a href="{{ h.url_for(controller='package', action='search') }}">
-              <img alt="" src="/images/more.png" width=110" height="110" style="display: block; margin-left: auto; margin-right: auto;"">
+              <img alt="" src="/images/more.png" width="110" height="110" style="display: block; margin-left: auto; margin-right: auto;">
               <figcaption>More</figcaption>
             </a>
           </figure>
@@ -26,32 +26,20 @@
     </div>
     </span>
 
-      <div class="col">
-        <div class=row-display-flex>
-          <div class=“col-sm-1”>
-            <figure>
-              <a >
-                <img alt="" src="/images/more.png" width=20" height="0" style="display: block; margin-left: auto; margin-right: auto;"">
-              </a>
-            </figure>
-          </div>
 
-        </div>
-      </div>
-
-    <span class="border">
+      <span class="border" style="background-color: white; border-radius: 30px; margin-left: 30px;">
       <div class="col pull-right">
         <h2>Data Science Feature 360</h2>
         <div class=row-display-flex>
           <div class=“col”>
             <figure>
               <a href="{{ h.url_for(controller='package', action='search') }}">
-                <img alt="" src="/images/mllist.png" width=110" height="110" style="display: block; margin-left: auto; margin-right: auto;"">
+                <img alt="" src="/images/mllist.png" width="110" height="110" style="display: block; margin-left: auto; margin-right: auto;"">
                 <figcaption>Machine Learning Features Datasets</figcaption>
               </a>
             </figure>
           </div>
-          <div class=“col”>
+          <div class=“col ml-1”>
             <figure>
               <a href="{{ h.url_for('organization_read', id='commercial-banking') }}">
                 <img alt="" src="/images/mlmodels.png" width=110" height="110" style="display: block; margin-left: auto; margin-right: auto;"">
@@ -68,6 +56,6 @@
   </div>
 
 
-  <div class=row-display-flex style="text-align: center; background-color: white;">
+  <div class="row-display-flex my-background" style="text-align: center;">
   </div>
 </div>
