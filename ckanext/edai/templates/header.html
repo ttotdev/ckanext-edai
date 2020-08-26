@@ -19,11 +19,8 @@
       {% else %}
       <h1>
         <a href="{{ h.url_for('home.index') }}">
-          <img alt="n/a" src="/images/v5_company_logo.png" width=135" height="60">
+          <img alt="n/a" src="/images/front_page/LogoWithDivider-01.png" width=154" height="60">
         </a>
-        <a href="{{ h.url_for('home.index') }}">
-          <img alt="n/a" src="/images/v5_vertical_white_line.png" width=20" height="60">
-        </a>        
         <a href="{{ h.url_for('home.index') }}">{{ g.site_title }}</a>
       </h1>
 
@@ -68,17 +65,12 @@
               {% endblock %}
 
             </p>
-
-
-
             <p>
                 <a href="{{ h.url_for('user.read', id=c.userobj.name) }}" class="image" title="{{ _('View profile') }}">
                 {{ h.gravatar((c.userobj.email_hash if c and c.userobj else ''), size=22) }}
                 <span class="username">{{ c.userobj.display_name }}</span>
               </a>
             </p>
-
-            
             <p>
               {% set new_activities = h.new_activities() %}
               <li class="notifications {% if new_activities > 0 %}notifications-important{% endif %}">
@@ -91,15 +83,12 @@
               </li> 
             </p>
 
-
             <p>
               <a href="{{ h.url_for('user.edit', id=c.userobj.name) }}" title="{{ _('Edit settings') }}">
               <i class="fa fa-cog" aria-hidden="true"></i>
               <span class="text">{{ _('Settings') }}</span>
             </a>
             </p>
-
-
 
             <p>
             <a href="{{ h.url_for('/user/_logout') }}" title="{{ _('Log out') }}">
